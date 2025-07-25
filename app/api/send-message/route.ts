@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 
 export async function POST(req: Request) {
-  const WEBHOOK_URL = "https://n8nconectajuse.conectajuse.shop/webhook/2d84c31a-2eaf-424c-83d7-7791460de77c"
+  const WEBHOOK_URL = "https://n8n.jetsalesbrasil.com/webhook/7b2635a9-259a-4905-bd21-08385864e321"
 
   try {
     const body = await req.json()
